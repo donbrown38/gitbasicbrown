@@ -1,0 +1,182 @@
+            body {
+                background-color: #000000;
+
+            }
+
+            #videoDiv2 {
+                width: 100%;
+                height: 400px;
+                margin:auto;
+                display:block;
+                position: relative;
+                background-color: black;
+                
+            }
+
+            #video2 {
+                width: 100%;
+                height: 400px
+                
+            }
+
+            .background-clip {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                display: flex;
+                flex-direction: column; 
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+            }
+
+            h1 {
+                color:  #F6F1F1;
+                justify-content: center;
+                font-size: 40px;
+                text-align: center;
+                font-family: Cambria;
+                text-shadow: 2px 2px 4px #353535;
+
+            }
+    
+            em {
+                color: #cbce19;
+                font-style: normal;
+                font-family: Cambria;
+                text-shadow: 2px 2px 4px #000000;
+                
+            }
+
+            @media (max-width: 750px) {
+                #background-video { display: none; }
+                body {
+                  background: url("base.jpg") no-repeat;
+                }
+            }  
+
+            h2 {
+                text-align: left;
+                padding-top: 100px;
+                padding-left: 100px;
+                color: rgb(0, 0, 90);
+                text-shadow: 2px 2px 4px #fafafa;
+                font-size: 38px;
+                font-family: Cambria;
+               
+                
+            }
+
+            legend {
+                font-size: 18px;
+                    
+            }
+
+        
+            fieldset {
+                height: 880px;
+                width: 0px;
+                border: none;
+                border-width: 5px;
+                display: block;
+                padding: 50px;
+                background-color: #f5f4ad;
+                
+            }
+
+            #first-name {
+                border: none;
+                padding: 20px;
+                margin: 5px 0 22px 0;
+                height: 5px;
+                width: 385px;
+                background-color: rgb(201, 241, 228);
+            }
+
+            #middle-name {
+                border: none;
+                padding: 20px;
+                margin: 5px 0 22px 0;
+                height: 5px;
+                width: 385px;
+                background-color: rgb(201, 241, 228);
+            }
+
+
+            #last-name {
+                border: none;
+                padding: 20px;
+                margin: 5px 0 22px 0;
+                height: 5px;
+                width: 385px;
+                background-color: rgb(201, 241, 228);
+            }
+
+            #phone {
+                border: none;
+                padding: 20px;
+                margin: 5px 0 22px 0;
+                height: 5px;
+                background-color: rgb(201, 241, 228);
+            }
+
+            #email {
+                border: none;
+                padding: 20px;
+                margin: 5px 0 22px 0;
+                height: 5px;
+                width: 385px;
+                background-color: rgb(201, 241, 228);
+            }
+
+            #password {
+                border: none;
+                padding: 20px;
+                margin: 5px 0 22px 0;
+                height: 5px;
+                width: 385px;
+                background-color: rgb(201, 241, 228);
+            }
+
+           
+            button {
+            
+                height: 40px;
+                width: 428px;
+                background-color: blue;
+                font-family: Cambria;
+                font-size: 12px;
+                color: rgb(252, 252, 252);
+                padding: 10px  60px;
+                border: 0;
+                outline: none;
+                cursor: pointer;
+                opacity: 0.9
+
+            }
+
+            form {
+                padding-left: 100px;
+                
+            }
+              
+            .bg-img {
+                /* The image used */
+                background-image: url("image/base.jpg");
+              
+                /* Control the height of the image */
+                min-height: 1500px;
+
+            
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                z-index: 2;
+
+              }
+
+         

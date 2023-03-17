@@ -3,127 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">    
     
         <title>FORM BASKETBALL</title>
-        <style>
-            h1 {
-                color: rgb(195, 195, 245);
-                padding: 5%;
-                justify-content: center;
-                font-size: 25px;
-                text-align: center;
-                background-image: url('image/basketball.jpg');
-                               
-            }
-    
-            em {
-                color: rgb(252, 246, 213);
-                font-style: normal;
-            }
-
-            h2 {
-                text-align: center;
-                padding-top: 20px;
-                
-            }
-
-            legend {
-                color: blue;
-                font-size: 18px;
-                    
-            }
-
         
-            fieldset {
-                height: 700px;
-                width: 400px;
-                border-radius: 10px;
-                border-width: 5px;
-                display: block;
-                padding: 40px;
-                
-            }
-
-            #first-name {
-                border-radius: 5px;
-                height: 25px;
-                width: 385px;
-                background-color: rgb(201, 241, 228);
-            }
-
-            #middle-name {
-                border-radius: 5px;
-                height: 25px;
-                width: 385px;
-                background-color: rgb(201, 241, 228);
-            }
-
-
-            #last-name {
-                border-radius: 5px;
-                height: 25px;
-                width: 385px;
-                background-color: rgb(201, 241, 228);
-            }
-
-            #phone {
-                border-radius: 5px;
-                height: 25px;
-                background-color: rgb(201, 241, 228);
-            }
-
-            #email {
-                border-radius: 0;
-                border-radius: 5px;
-                height: 25px;
-                width: 385px;
-                background-color: rgb(201, 241, 228);
-            }
-
-            #password {
-                border-radius: 0;
-                border-radius: 5px;
-                height: 25px;
-                width: 385px;
-                background-color: rgb(201, 241, 228);
-            }
-
-           
-            button {
-                border-radius: 10px;
-                height: 40px;
-                width: 390px;
-                background-color: blue;
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                font-size: larger;
-                color: rgb(252, 252, 252);
-                padding: 10px  60px;
-                background: blue;
-                border: 0;
-                outline: none;
-                cursor: pointer;
-
-            }
-
-            form {
-                padding-left: 420px;
-                
-            }
-	                   
-        </style>
     </head>
-    
+
     <body>
-        <div>
-        <h1>BASKETBALL <em>REGISTRATION FORM</em></h1>
-        <h2>Fill in your Biodata</h2>
+        <div id="videoDiv2"> 
+            <video id="video2" preload="" autoplay="" muted="" playsinline="" loop="">
+            <source src="basketball.mp4" type="video/mp4">
+            </video> 
+                <div id="videoMessage2" class="background-clip">
+
+                    <h1>BASKETBALL <em>REGISTRATION FORM</em></h1>
+                </div>
+            </div>
+
+
         
+        <div class="bg-img"> 
+        <h2>Fill in your Biodata</h2>
         <form onsubmit="alert('Your registration was successful')">
 
             <fieldset>
-                <legend>Biodata</legend>
-
+                
                 <p class="Thanks you your form has been recieved"></p>
 
             <div>
@@ -148,11 +53,11 @@
             <br>
 
             <div>    
-                <label for="phone">Phone number</label><br><br>
-                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678">
+                <label for="phone">Phone number</label><br>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
             </div>
 
-                <br><br>
+                <br>
             
             <div class="gender">
             <p>
@@ -181,7 +86,6 @@
             
             <br>
 
-                <br>
             <div>
 
                 <button type="submit">Submit</button>
@@ -193,7 +97,7 @@
         </form>
         </div>
 
-        <footer style="text-align: center;">Copyright &copy; 2023</footer>
+        <footer style="text-align: center; color: aliceblue;">Copyright &copy; 2023</footer>
 
     </body>
 
